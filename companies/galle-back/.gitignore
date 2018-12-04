@@ -1,0 +1,8 @@
+*.pyc
+*.~
+gallery/
+media/
+staticfiles/
+node_modules/
+static/build/
+static/node_modules/

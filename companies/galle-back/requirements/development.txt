@@ -1,0 +1,15 @@
+# development requirements will come here
+
+-r common.txt
+
+# Debugging
+# -------------------------------------
+ipdb
+ipython
+dj-database-url
+
+
+# Testing and coverage
+# -------------------------------------
+flake8==2.5.1
+factory_boy==2.6.0

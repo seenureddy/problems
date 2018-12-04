@@ -1,0 +1,11 @@
+@import "/static/node_moduels/bootstrap/bootstrap/dist/css/bootstrap.min.css";
+@import "/static/node_moduels/tether/dist/js/tether.min.js";
+@import "/static/node_moduels/jquery/dist/jquery.min.js";
+
+.ng-valid[required], .ng-valid.required  {
+  border-left: 5px solid #42A948; /* green */
+}
+
+.ng-invalid:not(form)  {
+  border-left: 5px solid #a94442; /* red */
+}

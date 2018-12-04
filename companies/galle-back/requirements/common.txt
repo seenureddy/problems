@@ -1,0 +1,10 @@
+Django==1.10
+psycopg2
+django-model-utils==2.2
+pillow
+pytz
+djangorestframework
+
+# WebPack Configuration
+#--------------------------------------
+django-webpack-loader
