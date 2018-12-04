@@ -2,5 +2,5 @@
 
 Django> 1.8, <1.9
 unipath
-requests==2.8.0
+requests==2.20.0
 BeautifulSoup==3.2.1
