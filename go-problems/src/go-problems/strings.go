@@ -15,7 +15,10 @@ func Reverse(str string) string {
 
 // Reverse the words
 func ReverseWords(s string) string {
+	// SPLIT the string into slice
+	// words := strings.Split(s, " ")
 	words := strings.Fields(s)
+	
 	fmt.Println(words)
 	for i, j := 0, len(words)-1; i < j; i, j = i+1, j-1 {
 		words[i], words[j] = words[j], words[i]
