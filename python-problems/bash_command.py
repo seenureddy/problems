@@ -1,4 +1,20 @@
 #!/usr/bin/python
+"""
+
+RedHat Coding question
+The following bash pipeline determines the frequency with which different words occur in a
+given input.  It outputs the most frequent words, along with their frequencies.
+    tr -s ' ' '\n' | sort | uniq -c | sort -n | tail
+An example invocation is as follows (of course, on your computer the exact results may vary):
+$ cat /usr/share/doc/coreutils-common/README | tr -s ' ' '\n' | sort | uniq -c | sort -n | tail
+15 is
+18 as
+23 that
+Implement an equivalent in Python.  You should use only the python standard library, and you must not
+use the exec library.  For a varied set of potential inputs, the output should be as close as
+reasonable to that of the bash pipeline.
+
+"""
 
 import sys, os
 import operator
